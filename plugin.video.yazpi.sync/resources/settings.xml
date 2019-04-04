@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="32035">
+		<setting label="Folder 1" type="lsep"/>
+		<setting label="Enable?" type="bool" id="boolfolder1" default="false"/>
+		<setting label="NFS Export Path" type="folder" id="export1" source="auto" option="" enable="eq(-1,true)" subsetting="true"/>
+		<setting label="Target Path" type="folder" id="folder1" source="local" option="writeable" enable="eq(-2,true)" subsetting="true"/>
+		<setting label="Folder 2" type="lsep"/>
+		<setting label="Enable?" type="bool" id="boolfolder2" default="false"/>
+		<setting label="NFS Export Path" type="folder" id="export2" source="auto" option="" enable="eq(-1,true)" subsetting="true"/>
+		<setting label="Target Path" type="folder" id="folder2" source="local" option="writeable" enable="eq(-2,true)" subsetting="true"/>
+	</category>
+</settings>
